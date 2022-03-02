@@ -72,7 +72,6 @@
 
         recognition.onspeechend = function () {
             instructions.text("No activity.");
-            recognition.stop();
         };
 
         recognition.onerror = function (event) {
